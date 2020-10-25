@@ -1,0 +1,27 @@
+.pricing__panel, 
+.marketing__about--padding, 
+.welcome__features, 
+.call__info, 
+.team__panel {
+	opacity: 0;
+	transition-duration: 1.5s;
+	transform: translateX(-100px);
+	&.fade-left {
+		opacity: 1;
+		transition-duration: 1.5s;
+		transform: translateX(0);
+	}
+}
+
+.marketing__about--mark, 
+.marketing__about--save {
+	opacity: 0;
+	transition-duration: 1.5s;
+	transform: translateX(100px);
+	&.fade-right {
+		opacity: 1;
+		transition-duration: 1.5s;
+		transform: translateX(0);
+	}
+}
+
