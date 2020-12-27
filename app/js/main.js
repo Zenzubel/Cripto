@@ -1,12 +1,12 @@
 $(function () {
 
 	$('.menu-burger__icon').click(function(event) {
-	$('.menu-burger__list, .menu-burger__icon').toggleClass('active');
+	$('.menu-burger, .menu-burger__icon').toggleClass('active');
 	$('body').addClass('lock');
 	});
 
 	$('.menu-burger__item').click(function(event) {
-	$('.menu-burger__list, .menu-burger__icon').removeClass('active');
+	$('.menu-burger, .menu-burger__icon').removeClass('active');
 	$('body').removeClass('lock');
 	});
 
